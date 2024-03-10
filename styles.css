@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ovo&family=Pavanam&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pavanam', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-family: 'Ovo', serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.carousel-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+
+.carousel-container {
+    position: relative;
+}
+
+.fixed-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-container h1 {
+    font-family: 'Ovo', serif;
+}
+
+main section {
+    padding: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main .mainSectionOne {
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+}
+
+main h1 {
+    align-items: center;
+    text-align: center;
+    font-family: 'Ovo', serif !important;
+}
+
+.card-img-top{
+    width:100%;
+    height:auto;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+footer h1 {
+    align-items: center;
+    text-align: center;
+    font-family: 'Ovo', serif !important;
+    padding-bottom: 2rem;
+}
+
+footer .footerMainSec {
+    justify-content: center;
+    display: flex;
+    flex: auto;
+    list-style-type: none;
+}
+
+footer .footerSec {
+    width: 17rem;
+}
+
+footer a {
+    text-decoration: none;
+}
